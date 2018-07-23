@@ -3,7 +3,7 @@ const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
-    entry: './ex.5/index.js',
+    entry: './ex.9/index.js',
     output: {
         path: __dirname + '/public',
         filename: './bundle.js'
@@ -25,7 +25,7 @@ module.exports = {
             query: {
                 // Preset 'react' adicionado no ex.9
                 presets: ['es2015', 'react'],
-                // Plugin adicionado no ex.7
+                // Plugin adicionado no ex.7 
                 plugins: ['transform-object-rest-spread']
             }
         }, 

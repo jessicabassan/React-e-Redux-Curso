@@ -10,5 +10,6 @@ function clone(objeto) {
 
 const novoProduto = clone(produto)
 novoProduto.nome = 'Caneta Bic Azul'
+novoProduto.preco = 1.50
 
 console.log(produto, novoProduto)

@@ -4,4 +4,4 @@ export default props => (
     null
 )
 
-console.log('Funcionou!')
+console.log('Funcionou, yeeah!!')
